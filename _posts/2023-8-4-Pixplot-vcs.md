@@ -3,6 +3,7 @@ layout: post
 title: Visualización de semejanzas con PixPlot (VCS)
 excerpt_separator: <!--more-->
 tags: inteligencia_artificial archivos_documentales fotografias pixplot
+image: /images/captura_pixplot_VCS.jpg
 ---
 
 ![pixplot VCS](../images/captura_pixplot_VCS.jpg)

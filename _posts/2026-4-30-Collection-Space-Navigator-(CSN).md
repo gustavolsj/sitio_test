@@ -3,6 +3,7 @@ layout: post
 title: Collection Space Navigator (CSN)
 excerpt_separator: <!--more-->
 tags: inteligencia_artificial archivos_documentales fotografias
+image: /images/captura_CNS.jpg
 ---
 
 ![Collection Space Navigator](../images/captura_CNS.jpg)

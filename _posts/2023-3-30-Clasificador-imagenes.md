@@ -3,6 +3,7 @@ layout: post
 title: Clasificador de imagenes
 excerpt_separator: <!--more-->
 tags: inteligencia_artificial archivos_documentales fotografias
+image: /images/tSNE-imagenes_camara.jpg
 ---
 
 ![imagenes de camara](../images/tSNE-imagenes_camara.jpg)

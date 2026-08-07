@@ -3,6 +3,7 @@ layout: post
 title: Teachable Machine para clasificar imagenes
 excerpt_separator: <!--more-->
 tags: inteligencia_artificial archivos_documentales fotografias
+image: /images/captura_teachable.jpg
 ---
 
 ![Teachable machine](../images/captura_teachable.jpg)

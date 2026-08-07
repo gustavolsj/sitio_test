@@ -3,6 +3,7 @@ layout: post
 title: Visualización de semejanzas
 excerpt_separator: <!--more-->
 tags: inteligencia_artificial archivos_documentales fotografias pixplot
+image: /images/pixplot.JPG
 ---
 
 ![pixplot](../images/pixplot.JPG)
