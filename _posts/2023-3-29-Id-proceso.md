@@ -4,6 +4,7 @@ title: Hola mundo 2.0!
 published: false
 excerpt_separator: <!--more-->
 tags: archivos_documentales fotografias collection_builder github_pages
+image: /images/collection_builder_demo.jpg
 ---
 
 ![Demo Collection Builder](../images/collection_builder_demo.jpg)

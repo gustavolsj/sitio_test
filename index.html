@@ -2,17 +2,51 @@
 layout: default
 ---
 
-<div class="posts">
+<style>
+  .posts-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+  }
+
+  .post-card a {
+    display: block;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+
+  .post-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.25s ease;
+  }
+
+  .post-card a:hover img {
+    transform: scale(1.05);
+  }
+
+  @media (max-width: 1024px) {
+    .posts-gallery { grid-template-columns: repeat(3, 1fr); }
+  }
+  @media (max-width: 768px) {
+    .posts-gallery { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 480px) {
+    .posts-gallery { grid-template-columns: 1fr; }
+  }
+</style>
+
+<div class="posts-gallery">
   {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    <article class="post-card">
+      <a href="{{ site.baseurl }}{{ post.url }}" aria-label="{{ post.title }}">
+        <img
+          src="{{ post.image | default: '/assets/img/default.jpg' | relative_url }}"
+          alt="{{ post.title }}">
+      </a>
     </article>
   {% endfor %}
 </div>
