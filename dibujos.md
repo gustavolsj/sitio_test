@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Dibujos generativos en p5.js
-permalink: /dibujos/
+permalink: /sitio_test/dibujos/
 ---
 
   <div>

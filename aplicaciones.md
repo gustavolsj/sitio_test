@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Mis aplicaciones web
-permalink: /aplicaciones/
+permalink: /sitio_test/aplicaciones/
 ---
 
 ![buscador](./images/captura_buscador_similares.jpg)
