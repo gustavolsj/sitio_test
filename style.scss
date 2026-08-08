@@ -31,6 +31,13 @@ body {
   width: 100%;
 }
 
+.container_side {
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 0 10px;
+  width: 100%;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   color: $darkerGray;
@@ -239,12 +246,12 @@ img {
 
 /* Sidebar links */
 .sidebar a {
-  color: #fff;
+  color: #6b6b6b;
 }
 
 /* About section */
 .sidebar-about h1 {
-  color: #fff;
+  color: #6e6e6e;
   margin-top: 0;
   font-family: "Abril Fatface", serif;
   font-size: 3.25rem;
